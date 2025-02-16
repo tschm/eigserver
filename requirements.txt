@@ -2,3 +2,7 @@ plotly==6.0.0
 cvxpy-base==1.6.0
 clarabel==0.10.0
 numpy==2.2.3
+polars
+pyarrow
+scipy
+
