@@ -1,0 +1,11 @@
+_commit: v0.4.60
+_src_path: git@github.com:tschm/experiments.git
+description: Compute the smallest eigenvalue on a server
+gh_create: gh repo create tschm/eigserver --public --description 'Compute the smallest
+  eigenvalue on a server'
+page: https://tschm.github.io/eigserver
+project_name: eigserver
+repository: https://github.com/tschm/eigserver
+ssh_uri: git@github.com:tschm/eigserver.git
+status: public
+username: tschm
