@@ -2,11 +2,7 @@ name: Build and Release
 
 on:
   # Trigger on manual dispatch
-  workflow_dispatch:
-  # Trigger on push to the main branch
-  push:
-    branches:
-      - main
+  workflow_dispatch
 
 permissions:
   contents: write
@@ -18,7 +14,6 @@ jobs:
 
     steps:
       - name: Generate Tag
-        uses: cvxgrp/.github/actions/tag@v2.2.8
+        uses: tschm/cradle/actions/tag@v0.1.56
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          build_package: 'false'
