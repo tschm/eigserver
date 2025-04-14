@@ -1,5 +1,5 @@
 plotly==6.0.1
-cvxpy-base==1.6.4
+cvxpy-base==1.6.5
 clarabel==0.10.0
 numpy==2.2.4
 polars==1.27.0
