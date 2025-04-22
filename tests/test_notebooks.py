@@ -1,6 +1,7 @@
 import subprocess
 import sys
 
+
 def test_notebooks(root_dir):
     # loop over all notebooks
     path = root_dir / "notebooks"
