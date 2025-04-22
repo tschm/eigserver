@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MARIMO](https://github.com/tschm/eigserver/actions/workflows/marimo.yml/badge.svg)](https://github.com/tschm/eigserver/actions/workflows/marimo.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/tschm/eigserver/badge)](https://www.codefactor.io/repository/github/tschm/eigserver)
 [![Created with qCradle](https://img.shields.io/badge/Created%20with-qCradle-blue?style=flat-square)](https://github.com/tschm/experiments)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tschm/eigserver)
