@@ -50,7 +50,7 @@ class EigenvalueServer(fl.FlightServerBase):
 
 # Start the server
 def start_server():
-    server = EigenvalueServer("0.0.0.0", 5005)  # Bind to localhost and port 5005
+    server = EigenvalueServer("127.0.0.1", 5005)  # Bind to localhost and port 5005
     print("Starting Eigenvalue Flight server on port 5005...")
     server.serve()
 
