@@ -1,7 +1,11 @@
 name: MARIMO
 
+# Trigger the workflow on push events
+# This ensures the documentation is automatically updated whenever code changes are pushed to main
 on:
   push:
+    branches:
+      - main
 
 permissions:
   checks: write
